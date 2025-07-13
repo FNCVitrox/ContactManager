@@ -1,0 +1,29 @@
+[
+  {
+    "MitarbeiterNummer": null,
+    "Abteilung": null,
+    "AHVNummer": null,
+    "Eintrittsdatum": "0001-01-01T00:00:00",
+    "Austrittsdatum": null,
+    "Beschaeftigungsgrad": 0,
+    "Rolle": null,
+    "Kaderstufe": 0,
+    "Lehrjahre": 0,
+    "AktuellesLehrjahr": 0,
+    "Anrede": 0,
+    "Vorname": null,
+    "Nachname": null,
+    "Geburtsdatum": "0001-01-01T00:00:00",
+    "Geschlecht": 0,
+    "Titel": null,
+    "TelefonGeschaeft": null,
+    "Mobiltelefon": null,
+    "TelefonPrivat": null,
+    "Email": null,
+    "Status": 0,
+    "Wohnort": null,
+    "Nationalitaet": null,
+    "Adresse": null,
+    "Postleitzahl": null
+  }
+]
