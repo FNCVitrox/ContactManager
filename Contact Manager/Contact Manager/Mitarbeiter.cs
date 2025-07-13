@@ -18,7 +18,7 @@ namespace Contact_Manager
         public string Rolle { get; set; }
         public int Kaderstufe { get; set; }
         public int Lehrjahre { get; set; }
-        public int AktuellesLehrjahr { get; set; }
+        public int AktuellesLehrjahr { get; set; } // Test fuer push
 
     }
 }
