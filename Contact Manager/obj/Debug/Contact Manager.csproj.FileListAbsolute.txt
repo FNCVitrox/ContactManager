@@ -36,3 +36,4 @@ C:\Users\vesel\source\repos\Contact Manager\Contact Manager\bin\Debug\System.Tex
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\bin\Debug\System.ValueTuple.xml
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact .85F63C0E.Up2Date
+C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.Suchen.resources
