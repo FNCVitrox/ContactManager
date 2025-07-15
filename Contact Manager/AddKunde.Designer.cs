@@ -78,7 +78,6 @@
             this.lblAddKunde.Size = new System.Drawing.Size(104, 20);
             this.lblAddKunde.TabIndex = 0;
             this.lblAddKunde.Text = "ADD KUNDE";
-            this.lblAddKunde.Click += new System.EventHandler(this.label1_Click);
             // 
             // cmbStatus
             // 

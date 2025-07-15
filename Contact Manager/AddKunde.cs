@@ -24,11 +24,6 @@ namespace Contact_Manager
             cmbStatus.DataSource = Enum.GetValues(typeof(Status));
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSpeichern_Click(object sender, EventArgs e)
         {
             Kunde kunde = new Kunde

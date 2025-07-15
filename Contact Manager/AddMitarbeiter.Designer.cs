@@ -88,7 +88,7 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(629, 41);
+            this.label1.Location = new System.Drawing.Point(483, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(190, 34);
             this.label1.TabIndex = 0;
@@ -99,7 +99,7 @@
             // 
             this.txtbVorname.Location = new System.Drawing.Point(280, 230);
             this.txtbVorname.Name = "txtbVorname";
-            this.txtbVorname.Size = new System.Drawing.Size(100, 26);
+            this.txtbVorname.Size = new System.Drawing.Size(312, 26);
             this.txtbVorname.TabIndex = 1;
             this.txtbVorname.TextChanged += new System.EventHandler(this.txtbVorname_TextChanged);
             // 
@@ -121,9 +121,9 @@
             // 
             // txtbNachname
             // 
-            this.txtbNachname.Location = new System.Drawing.Point(280, 294);
+            this.txtbNachname.Location = new System.Drawing.Point(280, 291);
             this.txtbNachname.Name = "txtbNachname";
-            this.txtbNachname.Size = new System.Drawing.Size(100, 26);
+            this.txtbNachname.Size = new System.Drawing.Size(312, 26);
             this.txtbNachname.TabIndex = 3;
             this.txtbNachname.TextChanged += new System.EventHandler(this.txtbNachname_TextChanged);
             // 
@@ -170,7 +170,7 @@
             // 
             this.txtbTitel.Location = new System.Drawing.Point(280, 471);
             this.txtbTitel.Name = "txtbTitel";
-            this.txtbTitel.Size = new System.Drawing.Size(100, 26);
+            this.txtbTitel.Size = new System.Drawing.Size(312, 26);
             this.txtbTitel.TabIndex = 15;
             // 
             // label9
@@ -185,7 +185,7 @@
             // 
             this.txtbGeschaeftsnummer.Location = new System.Drawing.Point(280, 512);
             this.txtbGeschaeftsnummer.Name = "txtbGeschaeftsnummer";
-            this.txtbGeschaeftsnummer.Size = new System.Drawing.Size(100, 26);
+            this.txtbGeschaeftsnummer.Size = new System.Drawing.Size(312, 26);
             this.txtbGeschaeftsnummer.TabIndex = 17;
             // 
             // label10
@@ -200,7 +200,7 @@
             // 
             this.txtbMobilenummer.Location = new System.Drawing.Point(280, 554);
             this.txtbMobilenummer.Name = "txtbMobilenummer";
-            this.txtbMobilenummer.Size = new System.Drawing.Size(100, 26);
+            this.txtbMobilenummer.Size = new System.Drawing.Size(312, 26);
             this.txtbMobilenummer.TabIndex = 19;
             // 
             // label7
@@ -215,7 +215,7 @@
             // 
             this.txtbTelefonPrivat.Location = new System.Drawing.Point(280, 602);
             this.txtbTelefonPrivat.Name = "txtbTelefonPrivat";
-            this.txtbTelefonPrivat.Size = new System.Drawing.Size(100, 26);
+            this.txtbTelefonPrivat.Size = new System.Drawing.Size(312, 26);
             this.txtbTelefonPrivat.TabIndex = 21;
             // 
             // label11
@@ -230,7 +230,7 @@
             // 
             this.txtbEmail.Location = new System.Drawing.Point(280, 651);
             this.txtbEmail.Name = "txtbEmail";
-            this.txtbEmail.Size = new System.Drawing.Size(100, 26);
+            this.txtbEmail.Size = new System.Drawing.Size(312, 26);
             this.txtbEmail.TabIndex = 23;
             // 
             // label12
@@ -253,7 +253,7 @@
             // 
             this.txtbWohnort.Location = new System.Drawing.Point(779, 160);
             this.txtbWohnort.Name = "txtbWohnort";
-            this.txtbWohnort.Size = new System.Drawing.Size(100, 26);
+            this.txtbWohnort.Size = new System.Drawing.Size(312, 26);
             this.txtbWohnort.TabIndex = 28;
             // 
             // label14
@@ -268,7 +268,7 @@
             // 
             this.txtbNationalitaet.Location = new System.Drawing.Point(779, 215);
             this.txtbNationalitaet.Name = "txtbNationalitaet";
-            this.txtbNationalitaet.Size = new System.Drawing.Size(100, 26);
+            this.txtbNationalitaet.Size = new System.Drawing.Size(312, 26);
             this.txtbNationalitaet.TabIndex = 30;
             // 
             // label15
@@ -283,7 +283,7 @@
             // 
             this.txtbAdresse.Location = new System.Drawing.Point(779, 266);
             this.txtbAdresse.Name = "txtbAdresse";
-            this.txtbAdresse.Size = new System.Drawing.Size(100, 26);
+            this.txtbAdresse.Size = new System.Drawing.Size(312, 26);
             this.txtbAdresse.TabIndex = 32;
             // 
             // label16
@@ -298,7 +298,7 @@
             // 
             this.txtbPLZ.Location = new System.Drawing.Point(779, 309);
             this.txtbPLZ.Name = "txtbPLZ";
-            this.txtbPLZ.Size = new System.Drawing.Size(100, 26);
+            this.txtbPLZ.Size = new System.Drawing.Size(312, 26);
             this.txtbPLZ.TabIndex = 34;
             // 
             // label17
@@ -313,7 +313,7 @@
             // 
             this.txtbMitarbeiternummer.Location = new System.Drawing.Point(779, 364);
             this.txtbMitarbeiternummer.Name = "txtbMitarbeiternummer";
-            this.txtbMitarbeiternummer.Size = new System.Drawing.Size(100, 26);
+            this.txtbMitarbeiternummer.Size = new System.Drawing.Size(312, 26);
             this.txtbMitarbeiternummer.TabIndex = 36;
             // 
             // label18
@@ -328,7 +328,7 @@
             // 
             this.txtbAbteilung.Location = new System.Drawing.Point(779, 413);
             this.txtbAbteilung.Name = "txtbAbteilung";
-            this.txtbAbteilung.Size = new System.Drawing.Size(100, 26);
+            this.txtbAbteilung.Size = new System.Drawing.Size(312, 26);
             this.txtbAbteilung.TabIndex = 38;
             // 
             // label19
@@ -343,7 +343,7 @@
             // 
             this.txtbAHV.Location = new System.Drawing.Point(779, 456);
             this.txtbAHV.Name = "txtbAHV";
-            this.txtbAHV.Size = new System.Drawing.Size(100, 26);
+            this.txtbAHV.Size = new System.Drawing.Size(312, 26);
             this.txtbAHV.TabIndex = 40;
             // 
             // label20
@@ -388,7 +388,7 @@
             // 
             this.nupBeschaeftigungsgrad.Location = new System.Drawing.Point(779, 608);
             this.nupBeschaeftigungsgrad.Name = "nupBeschaeftigungsgrad";
-            this.nupBeschaeftigungsgrad.Size = new System.Drawing.Size(120, 26);
+            this.nupBeschaeftigungsgrad.Size = new System.Drawing.Size(312, 26);
             this.nupBeschaeftigungsgrad.TabIndex = 50;
             // 
             // label23
@@ -403,7 +403,7 @@
             // 
             this.txtbRolle.Location = new System.Drawing.Point(779, 659);
             this.txtbRolle.Name = "txtbRolle";
-            this.txtbRolle.Size = new System.Drawing.Size(100, 26);
+            this.txtbRolle.Size = new System.Drawing.Size(312, 26);
             this.txtbRolle.TabIndex = 51;
             // 
             // label24
@@ -426,21 +426,21 @@
             // 
             this.nupKaderStufe.Location = new System.Drawing.Point(779, 689);
             this.nupKaderStufe.Name = "nupKaderStufe";
-            this.nupKaderStufe.Size = new System.Drawing.Size(120, 26);
+            this.nupKaderStufe.Size = new System.Drawing.Size(312, 26);
             this.nupKaderStufe.TabIndex = 57;
             // 
             // nupLehrjahre
             // 
             this.nupLehrjahre.Location = new System.Drawing.Point(779, 721);
             this.nupLehrjahre.Name = "nupLehrjahre";
-            this.nupLehrjahre.Size = new System.Drawing.Size(120, 26);
+            this.nupLehrjahre.Size = new System.Drawing.Size(312, 26);
             this.nupLehrjahre.TabIndex = 58;
             // 
             // nupAktuelleslehrjahr
             // 
             this.nupAktuelleslehrjahr.Location = new System.Drawing.Point(779, 763);
             this.nupAktuelleslehrjahr.Name = "nupAktuelleslehrjahr";
-            this.nupAktuelleslehrjahr.Size = new System.Drawing.Size(120, 26);
+            this.nupAktuelleslehrjahr.Size = new System.Drawing.Size(312, 26);
             this.nupAktuelleslehrjahr.TabIndex = 60;
             // 
             // label26
@@ -456,7 +456,7 @@
             this.cmbAnrede.FormattingEnabled = true;
             this.cmbAnrede.Location = new System.Drawing.Point(280, 178);
             this.cmbAnrede.Name = "cmbAnrede";
-            this.cmbAnrede.Size = new System.Drawing.Size(121, 28);
+            this.cmbAnrede.Size = new System.Drawing.Size(312, 28);
             this.cmbAnrede.TabIndex = 61;
             this.cmbAnrede.SelectedIndexChanged += new System.EventHandler(this.cmbAnrede_SelectedIndexChanged);
             // 
@@ -465,7 +465,7 @@
             this.cmbGeschlecht.FormattingEnabled = true;
             this.cmbGeschlecht.Location = new System.Drawing.Point(280, 425);
             this.cmbGeschlecht.Name = "cmbGeschlecht";
-            this.cmbGeschlecht.Size = new System.Drawing.Size(121, 28);
+            this.cmbGeschlecht.Size = new System.Drawing.Size(312, 28);
             this.cmbGeschlecht.TabIndex = 62;
             this.cmbGeschlecht.SelectedIndexChanged += new System.EventHandler(this.cmbGeschlecht_SelectedIndexChanged);
             // 
@@ -474,7 +474,7 @@
             this.cmbStatus.FormattingEnabled = true;
             this.cmbStatus.Location = new System.Drawing.Point(280, 703);
             this.cmbStatus.Name = "cmbStatus";
-            this.cmbStatus.Size = new System.Drawing.Size(121, 28);
+            this.cmbStatus.Size = new System.Drawing.Size(312, 28);
             this.cmbStatus.TabIndex = 63;
             this.cmbStatus.SelectedIndexChanged += new System.EventHandler(this.cmbStatus_SelectedIndexChanged);
             // 
@@ -546,7 +546,6 @@
             this.Controls.Add(this.label1);
             this.Name = "AddMitarbeiter";
             this.Size = new System.Drawing.Size(1167, 1015);
-            this.Load += new System.EventHandler(this.AddMitarbeiter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nupBeschaeftigungsgrad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupKaderStufe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupLehrjahre)).EndInit();

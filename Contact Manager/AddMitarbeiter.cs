@@ -79,10 +79,7 @@ namespace Contact_Manager
 
         }
 
-        private void AddMitarbeiter_Load(object sender, EventArgs e)
-        {
-
-        }
+   
     }
 }
 
