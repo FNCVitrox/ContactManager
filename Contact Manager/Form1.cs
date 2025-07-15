@@ -17,9 +17,6 @@ namespace Contact_Manager
         {
             InitializeComponent();
         }
-        public void button1_Click(object sender, EventArgs e)
-        {
-        }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
         }
@@ -32,10 +29,39 @@ namespace Contact_Manager
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadView(new mainmenu());
+            //LoadView(new mainmenu());
+            DataStore.Laden();  //Wichtig: beim Start Daten laden
         }
 
         private List<Mitarbeiter> mitarbeiterListe = new List<Mitarbeiter>();
 
+        private void btnKundeHinzufuegen_Click(object sender, EventArgs e)
+        {
+            Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+            if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+            {
+                mainForm.LoadView(new AddKunde()); // Wechsel zum Hinzufügen-View
+            }
+        }
+
+        private void btnMitarbeiterHinzufuegen_Click(object sender, EventArgs e)
+        {
+            Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+            if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+            {
+                mainForm.LoadView(new AddMitarbeiter()); // Wechsel zum Hinzufügen-View
+
+            }
+        }
+
+        private void btnDatenbankSearch_Click(object sender, EventArgs e)
+        {
+            Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+            if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+            {
+                mainForm.LoadView(new Suchen()); // Wechsel zum Hinzufügen-View
+
+            }
+        }
     }
 }

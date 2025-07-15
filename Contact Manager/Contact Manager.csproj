@@ -80,17 +80,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Personen\Kunde\AddKunde.cs">
+    <Compile Include="AddMitarbeiter.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Personen\Kunde\AddKunde.Designer.cs">
-      <DependentUpon>AddKunde.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Personen\Mitarbeiter\AddMitarbeiter.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Personen\Mitarbeiter\AddMitarbeiter.Designer.cs">
+    <Compile Include="AddMitarbeiter.Designer.cs">
       <DependentUpon>AddMitarbeiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataStore.cs" />
+    <Compile Include="AddKunde.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddKunde.Designer.cs">
+      <DependentUpon>AddKunde.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -98,40 +99,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menüs\Hinzufügen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menüs\Hinzufügen.Designer.cs">
-      <DependentUpon>Hinzufügen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Personen\Kunde\Kunde.cs" />
-    <Compile Include="Personen\Mitarbeiter\Mitarbeiter.cs" />
-    <Compile Include="Personen\Person.cs" />
+    <Compile Include="Kunde.cs" />
+    <Compile Include="Mitarbeiter.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Menüs\mainmenu.cs">
+    <Compile Include="Suchen.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Menüs\mainmenu.Designer.cs">
-      <DependentUpon>mainmenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menüs\Suchen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Menüs\Suchen.Designer.cs">
+    <Compile Include="Suchen.Designer.cs">
       <DependentUpon>Suchen.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Personen\Kunde\AddKunde.resx">
+    <EmbeddedResource Include="AddKunde.resx">
       <DependentUpon>AddKunde.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Personen\Mitarbeiter\AddMitarbeiter.resx">
+    <EmbeddedResource Include="AddMitarbeiter.resx">
       <DependentUpon>AddMitarbeiter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menüs\Hinzufügen.resx">
-      <DependentUpon>Hinzufügen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -141,11 +127,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Menüs\mainmenu.resx">
-      <DependentUpon>mainmenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menüs\Suchen.resx">
+    <EmbeddedResource Include="Suchen.resx">
       <DependentUpon>Suchen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -162,6 +146,32 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\nutzer-hinzufugen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suche_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night-mode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-interface-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon-half-visible-face-on-light-and-half-on-darkness.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,15 +15,12 @@ namespace Contact_Manager
 {
     public partial class AddMitarbeiter : UserControl
     {
-        private readonly string filePath = "mitarbeiter.json";
         public AddMitarbeiter()
         {
             InitializeComponent();
             cmbAnrede.DataSource = Enum.GetValues(typeof(Anrede));
             cmbGeschlecht.DataSource = Enum.GetValues(typeof(Geschlecht));
             cmbStatus.DataSource = Enum.GetValues(typeof(Status));
-
-
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -64,16 +61,7 @@ namespace Contact_Manager
             };
             List<Mitarbeiter> liste = new List<Mitarbeiter>();
 
-            if (File.Exists(filePath))
-            {
-                string existingJson = File.ReadAllText(filePath);
-                liste = JsonConvert.DeserializeObject<List<Mitarbeiter>>(existingJson) ?? new List<Mitarbeiter>();
-            }
-
-            liste.Add(mitarbeiter);
-
-            string json = JsonConvert.SerializeObject(liste, Formatting.Indented);
-            File.WriteAllText(filePath, json);
+            
 
             MessageBox.Show("Mitarbeiter gespeichert!");
         }

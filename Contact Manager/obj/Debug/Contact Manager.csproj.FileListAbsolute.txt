@@ -9,8 +9,6 @@ C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact Ma
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact Manager.pdb
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact Manager.exe.config
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.Form1.resources
-C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.mainmenu.resources
-C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.Hinzufügen.resources
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.AddKunde.resources
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.AddMitarbeiter.resources
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
