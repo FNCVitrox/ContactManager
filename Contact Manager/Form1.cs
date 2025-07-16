@@ -34,7 +34,6 @@ namespace Contact_Manager
                 mainForm.LoadView(new AddKunde()); // Wechsel zum Hinzufügen-View
             }
 
-
             if (isLightMode)
             {
                 btnMitarbeiterHinzufuegen.BackColor = Color.Gainsboro;
@@ -45,9 +44,9 @@ namespace Contact_Manager
             }
             else
             {
-                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(51, 51, 76);
-                btnKundeHinzufuegen.BackColor = Color.FromArgb(70, 70, 100);
-                btnDatenbankSearch.BackColor = Color.FromArgb(51, 51, 76);
+                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(41, 41, 41);
+                btnKundeHinzufuegen.BackColor = Color.FromArgb(52, 52, 52);
+                btnDatenbankSearch.BackColor = Color.FromArgb(41, 41, 41);
                 isLightMode = false;
             }
         }
@@ -62,7 +61,6 @@ namespace Contact_Manager
             }
             if (isLightMode)
             {
-                
                 btnMitarbeiterHinzufuegen.BackColor = Color.Gainsboro;
                 btnKundeHinzufuegen.BackColor = Color.Gainsboro;
                 btnDatenbankSearch.BackColor = Color.Gainsboro;
@@ -71,13 +69,12 @@ namespace Contact_Manager
             }
             else
             {
-                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(70, 70, 100);
-                btnKundeHinzufuegen.BackColor = Color.FromArgb(51, 51, 76);
-                btnDatenbankSearch.BackColor = Color.FromArgb(51, 51, 76);
+                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(52, 52, 52);
+                btnKundeHinzufuegen.BackColor = Color.FromArgb(41, 41, 41);
+                btnDatenbankSearch.BackColor = Color.FromArgb(41, 41, 41);
                 isLightMode = false;
             }
         }
-
 
         private void btnDatenbankSearch_Click(object sender, EventArgs e)
         {
@@ -97,9 +94,9 @@ namespace Contact_Manager
             }
             else
             {
-                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(51, 51, 76);
-                btnKundeHinzufuegen.BackColor = Color.FromArgb(51, 51, 76);
-                btnDatenbankSearch.BackColor = Color.FromArgb(70, 70, 100);
+                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(41, 41, 41);
+                btnKundeHinzufuegen.BackColor = Color.FromArgb(41, 41, 41);
+                btnDatenbankSearch.BackColor = Color.FromArgb(52, 52, 52);
 
                 isLightMode = false;
             }
@@ -119,21 +116,33 @@ namespace Contact_Manager
                 btnMitarbeiterHinzufuegen.BackColor = Color.Gainsboro;
                 btnKundeHinzufuegen.BackColor = Color.Gainsboro;
                 btnDatenbankSearch.BackColor = Color.Gainsboro;
+                btnMitarbeiterHinzufuegen.ForeColor = Color.Black;
+                btnKundeHinzufuegen.ForeColor = Color.Black;
+                btnDatenbankSearch.ForeColor = Color.Black;
+                btnLightmode.ForeColor = Color.Black;
             }
             else
             {
-                panel1.BackColor = Color.FromArgb(46, 51, 73);
-                panelNav.BackColor = Color.FromArgb(51, 51, 76);
-                panelLogo.BackColor = Color.FromArgb(39, 39, 58);
+                panel1.BackColor = Color.FromArgb(52, 52, 52);
+                panelNav.BackColor = Color.FromArgb(41, 41, 41);
+                panelLogo.BackColor = Color.FromArgb(31, 31, 31);
                 btnLightmode.Text = "    LightMode";
                 btnLightmode.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
                 isLightMode = false;
-                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(51, 51, 76);
-                btnKundeHinzufuegen.BackColor = Color.FromArgb(51, 51, 76);
-                btnDatenbankSearch.BackColor = Color.FromArgb(51, 51, 76);
-            }
+                btnMitarbeiterHinzufuegen.BackColor = Color.FromArgb(41, 41, 41);
+                btnKundeHinzufuegen.BackColor = Color.FromArgb(41, 41, 41);
+                btnDatenbankSearch.BackColor = Color.FromArgb(41, 41, 41);
+                btnMitarbeiterHinzufuegen.ForeColor = Color.White;
+                btnKundeHinzufuegen.ForeColor = Color.White;
+                btnDatenbankSearch.ForeColor = Color.White;
+                btnLightmode.ForeColor = Color.White;
 
+            }
         }
 
+        private void pictureBoxDatabase_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+        }
     }
 }

@@ -43,7 +43,7 @@
             // 
             // panelNav
             // 
-            this.panelNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.panelNav.Controls.Add(this.btnLightmode);
             this.panelNav.Controls.Add(this.btnDatenbankSearch);
             this.panelNav.Controls.Add(this.btnKundeHinzufuegen);
@@ -61,7 +61,7 @@
             this.btnLightmode.FlatAppearance.BorderSize = 0;
             this.btnLightmode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLightmode.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLightmode.ForeColor = System.Drawing.Color.Black;
+            this.btnLightmode.ForeColor = System.Drawing.Color.White;
             this.btnLightmode.Image = global::Contact_Manager.Properties.Resources.moon_half_visible_face_on_light_and_half_on_darkness;
             this.btnLightmode.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLightmode.Location = new System.Drawing.Point(0, 520);
@@ -81,7 +81,7 @@
             this.btnDatenbankSearch.FlatAppearance.BorderSize = 0;
             this.btnDatenbankSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDatenbankSearch.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDatenbankSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnDatenbankSearch.ForeColor = System.Drawing.Color.White;
             this.btnDatenbankSearch.Image = global::Contact_Manager.Properties.Resources.suche_1;
             this.btnDatenbankSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDatenbankSearch.Location = new System.Drawing.Point(0, 400);
@@ -101,7 +101,7 @@
             this.btnKundeHinzufuegen.FlatAppearance.BorderSize = 0;
             this.btnKundeHinzufuegen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKundeHinzufuegen.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKundeHinzufuegen.ForeColor = System.Drawing.Color.Black;
+            this.btnKundeHinzufuegen.ForeColor = System.Drawing.Color.White;
             this.btnKundeHinzufuegen.Image = global::Contact_Manager.Properties.Resources.nutzer_hinzufugen;
             this.btnKundeHinzufuegen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKundeHinzufuegen.Location = new System.Drawing.Point(0, 280);
@@ -117,12 +117,12 @@
             // 
             // btnMitarbeiterHinzufuegen
             // 
-            this.btnMitarbeiterHinzufuegen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.btnMitarbeiterHinzufuegen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.btnMitarbeiterHinzufuegen.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMitarbeiterHinzufuegen.FlatAppearance.BorderSize = 0;
             this.btnMitarbeiterHinzufuegen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMitarbeiterHinzufuegen.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMitarbeiterHinzufuegen.ForeColor = System.Drawing.Color.Black;
+            this.btnMitarbeiterHinzufuegen.ForeColor = System.Drawing.Color.White;
             this.btnMitarbeiterHinzufuegen.Image = global::Contact_Manager.Properties.Resources.nutzer_hinzufugen;
             this.btnMitarbeiterHinzufuegen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMitarbeiterHinzufuegen.Location = new System.Drawing.Point(0, 160);
@@ -138,7 +138,7 @@
             // 
             // panelLogo
             // 
-            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.panelLogo.Controls.Add(this.pictureBoxDatabase);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
@@ -154,9 +154,11 @@
             this.pictureBoxDatabase.Size = new System.Drawing.Size(129, 116);
             this.pictureBoxDatabase.TabIndex = 0;
             this.pictureBoxDatabase.TabStop = false;
+            this.pictureBoxDatabase.Click += new System.EventHandler(this.pictureBoxDatabase_Click);
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.panel1.Location = new System.Drawing.Point(435, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1184, 1024);

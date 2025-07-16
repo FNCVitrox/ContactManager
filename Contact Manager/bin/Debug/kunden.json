@@ -19,5 +19,26 @@
     "Geschaeftsadresse": "",
     "Kundentyp": "",
     "Firmenkontakt": ""
+  },
+  {
+    "Anrede": 0,
+    "Vorname": "sdfsdfsdfsfs",
+    "Nachname": "sdfsdfsdf",
+    "Geburtsdatum": "2025-07-16T19:14:40.6564024+02:00",
+    "Geschlecht": 0,
+    "Titel": "",
+    "TelefonGeschaeft": "",
+    "Mobiltelefon": "",
+    "TelefonPrivat": "",
+    "Email": "",
+    "Status": 0,
+    "Wohnort": "",
+    "Nationalitaet": "",
+    "Adresse": "",
+    "Postleitzahl": "",
+    "Firmenname": "",
+    "Geschaeftsadresse": "",
+    "Kundentyp": "",
+    "Firmenkontakt": ""
   }
 ]

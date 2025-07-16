@@ -25,5 +25,32 @@
     "Kaderstufe": 0,
     "Lehrjahre": 0,
     "AktuellesLehrjahr": 0
+  },
+  {
+    "Anrede": 0,
+    "Vorname": "sdfsgsdf",
+    "Nachname": "dfsdfsdf",
+    "Geburtsdatum": "2025-07-16T19:14:36.4226319+02:00",
+    "Geschlecht": 0,
+    "Titel": "",
+    "TelefonGeschaeft": "",
+    "Mobiltelefon": "",
+    "TelefonPrivat": "",
+    "Email": "",
+    "Status": 0,
+    "Wohnort": "",
+    "Nationalitaet": "",
+    "Adresse": "",
+    "Postleitzahl": "",
+    "MitarbeiterNummer": 2,
+    "Abteilung": "",
+    "AHVNummer": "",
+    "Eintrittsdatum": "2025-07-16T19:14:36.3894623+02:00",
+    "Austrittsdatum": null,
+    "Beschaeftigungsgrad": 0,
+    "Rolle": "",
+    "Kaderstufe": 0,
+    "Lehrjahre": 0,
+    "AktuellesLehrjahr": 0
   }
 ]
