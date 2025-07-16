@@ -1,0 +1,29 @@
+[
+  {
+    "Anrede": 0,
+    "Vorname": "wasd",
+    "Nachname": "wasd",
+    "Geburtsdatum": "2025-07-16T18:18:08.8870463+02:00",
+    "Geschlecht": 0,
+    "Titel": "",
+    "TelefonGeschaeft": "",
+    "Mobiltelefon": "",
+    "TelefonPrivat": "",
+    "Email": "",
+    "Status": 0,
+    "Wohnort": "",
+    "Nationalitaet": "",
+    "Adresse": "",
+    "Postleitzahl": "",
+    "MitarbeiterNummer": 1,
+    "Abteilung": "",
+    "AHVNummer": "",
+    "Eintrittsdatum": "2025-07-16T18:18:08.8592072+02:00",
+    "Austrittsdatum": null,
+    "Beschaeftigungsgrad": 0,
+    "Rolle": "",
+    "Kaderstufe": 0,
+    "Lehrjahre": 0,
+    "AktuellesLehrjahr": 0
+  }
+]

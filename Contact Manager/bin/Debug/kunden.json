@@ -1,0 +1,23 @@
+[
+  {
+    "Anrede": 0,
+    "Vorname": "wasd",
+    "Nachname": "wasd",
+    "Geburtsdatum": "2025-07-16T18:18:13.1219394+02:00",
+    "Geschlecht": 0,
+    "Titel": "asd",
+    "TelefonGeschaeft": "",
+    "Mobiltelefon": "",
+    "TelefonPrivat": "",
+    "Email": "",
+    "Status": 0,
+    "Wohnort": "",
+    "Nationalitaet": "",
+    "Adresse": "",
+    "Postleitzahl": "",
+    "Firmenname": "",
+    "Geschaeftsadresse": "",
+    "Kundentyp": "",
+    "Firmenkontakt": ""
+  }
+]
