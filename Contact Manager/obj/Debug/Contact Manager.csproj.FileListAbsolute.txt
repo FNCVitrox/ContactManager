@@ -35,3 +35,5 @@ C:\Users\vesel\source\repos\Contact Manager\Contact Manager\bin\Debug\System.Thr
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\bin\Debug\System.ValueTuple.xml
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact .85F63C0E.Up2Date
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.Suchen.resources
+C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.KundenBearbeiten.resources
+C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.MitarbeiterBearbeiten.resources

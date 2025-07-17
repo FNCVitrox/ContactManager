@@ -26,8 +26,12 @@ namespace Contact_Manager
 
         private void btnSpeichern_Click(object sender, EventArgs e)
         {
+            int neueKId = DataStore.NächsteKundenID();
+
+
             Kunde kunde = new Kunde
             {
+                Kundennummer = neueKId,
                 Anrede = (Anrede)cmbAnrede.SelectedItem,
                 Vorname = txtbVorname.Text,
                 Nachname = txtbNachname.Text,
@@ -60,11 +64,11 @@ namespace Contact_Manager
 
         private void FormularLeeren()
         {
-            cmbAnrede.SelectedIndex = -1;
+            cmbAnrede.SelectedIndex = 0;
             txtbVorname.Clear();
             txtbNachname.Clear();
-            cmbGeschlecht.SelectedIndex = -1;
-            cmbStatus.SelectedIndex = -1;
+            cmbGeschlecht.SelectedIndex = 0;
+            cmbStatus.SelectedIndex = 0;
             dtpGeburtsdatum.Value = DateTime.Now;
             txtbTitel.Clear();
             txtbGeschaeftsnummer.Clear();

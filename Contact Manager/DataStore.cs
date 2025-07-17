@@ -43,6 +43,11 @@ namespace Contact_Manager
             return MitarbeiterListe.Any() ? MitarbeiterListe.Max(m => m.MitarbeiterNummer) + 1 : 1;
         }
 
+        public static int NächsteKundenID()
+        {
+            return KundenListe.Any() ? KundenListe.Max(k => k.Kundennummer) + 1 : 1;
+        }
+
 
     }
 }

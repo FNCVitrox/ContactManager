@@ -63,6 +63,7 @@
             this.dgvErgebnisse.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvErgebnisse.Size = new System.Drawing.Size(1121, 875);
             this.dgvErgebnisse.TabIndex = 2;
+            this.dgvErgebnisse.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvErgebnisse_CellDoubleClick);
             // 
             // Suchen
             // 

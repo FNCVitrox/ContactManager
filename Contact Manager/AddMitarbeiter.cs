@@ -52,11 +52,11 @@ namespace Contact_Manager
 
         private void btnSpeichern_Click(object sender, EventArgs e)
         {
-            int neueId = DataStore.NächsteMitarbeiterID();
+            int neueMId = DataStore.NächsteMitarbeiterID();
 
             Mitarbeiter mitarbeiter = new Mitarbeiter
             {
-                MitarbeiterNummer = neueId,
+                MitarbeiterNummer = neueMId,
                 Anrede = (Anrede)cmbAnrede.SelectedItem,
                 Vorname = txtbVorname.Text,
                 Nachname = txtbNachname.Text,
@@ -93,11 +93,11 @@ namespace Contact_Manager
         }
         private void FormularLeeren()
         {
-            cmbAnrede.SelectedIndex = -1;
+            cmbAnrede.SelectedIndex = 0;
             txtbVorname.Clear();
             txtbNachname.Clear();
-            cmbGeschlecht.SelectedIndex = -1;
-            cmbStatus.SelectedIndex = -1;
+            cmbGeschlecht.SelectedIndex = 0;
+            cmbStatus.SelectedIndex = 0;
             txtbAHV.Clear();
             dtpEintrittsdatum.Value = DateTime.Now;
             dtpaustrittsdatum.Value = DateTime.Now;

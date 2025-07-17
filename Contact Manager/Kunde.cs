@@ -21,5 +21,7 @@ namespace Contact_Manager
 
         [JsonProperty(Order = 19)]
         public string Firmenkontakt { get; set; }
+        [JsonProperty(Order = 20)]
+        public int Kundennummer { get; set; } // Automatisch eindeutige Nummer
     }
 }

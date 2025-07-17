@@ -86,6 +86,12 @@
     <Compile Include="AddMitarbeiter.Designer.cs">
       <DependentUpon>AddMitarbeiter.cs</DependentUpon>
     </Compile>
+    <Compile Include="KundenBearbeiten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KundenBearbeiten.Designer.cs">
+      <DependentUpon>KundenBearbeiten.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataStore.cs" />
     <Compile Include="AddKunde.cs">
       <SubType>UserControl</SubType>
@@ -102,6 +108,12 @@
     <Compile Include="KontaktView.cs" />
     <Compile Include="Kunde.cs" />
     <Compile Include="Mitarbeiter.cs" />
+    <Compile Include="MitarbeiterBearbeiten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MitarbeiterBearbeiten.Designer.cs">
+      <DependentUpon>MitarbeiterBearbeiten.cs</DependentUpon>
+    </Compile>
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,8 +129,14 @@
     <EmbeddedResource Include="AddMitarbeiter.resx">
       <DependentUpon>AddMitarbeiter.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KundenBearbeiten.resx">
+      <DependentUpon>KundenBearbeiten.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MitarbeiterBearbeiten.resx">
+      <DependentUpon>MitarbeiterBearbeiten.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
