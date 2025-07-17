@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.panelNav = new System.Windows.Forms.Panel();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnLightmode = new System.Windows.Forms.Button();
             this.btnDatenbankSearch = new System.Windows.Forms.Button();
             this.btnKundeHinzufuegen = new System.Windows.Forms.Button();
             this.btnMitarbeiterHinzufuegen = new System.Windows.Forms.Button();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.pictureBoxDatabase = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBoxDatabaseDarkMode = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDatabaseLightmodeMode = new System.Windows.Forms.PictureBox();
             this.panelNav.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDatabase)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDatabaseDarkMode)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDatabaseLightmodeMode)).BeginInit();
             this.SuspendLayout();
             // 
             // panelNav
@@ -54,6 +56,26 @@
             this.panelNav.Name = "panelNav";
             this.panelNav.Size = new System.Drawing.Size(440, 1024);
             this.panelNav.TabIndex = 1;
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.panelLogo.Controls.Add(this.pictureBoxDatabaseDarkMode);
+            this.panelLogo.Controls.Add(this.pictureBoxDatabaseLightmodeMode);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(440, 160);
+            this.panelLogo.TabIndex = 2;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.panel1.Location = new System.Drawing.Point(435, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1184, 1024);
+            this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnLightmode
             // 
@@ -136,34 +158,31 @@
             this.btnMitarbeiterHinzufuegen.UseVisualStyleBackColor = false;
             this.btnMitarbeiterHinzufuegen.Click += new System.EventHandler(this.btnMitarbeiterHinzufuegen_Click);
             // 
-            // panelLogo
+            // pictureBoxDatabaseDarkMode
             // 
-            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.panelLogo.Controls.Add(this.pictureBoxDatabase);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(440, 160);
-            this.panelLogo.TabIndex = 2;
+            this.pictureBoxDatabaseDarkMode.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxDatabaseDarkMode.Image = global::Contact_Manager.Properties.Resources.dankenbanklogodarkmode;
+            this.pictureBoxDatabaseDarkMode.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxDatabaseDarkMode.Name = "pictureBoxDatabaseDarkMode";
+            this.pictureBoxDatabaseDarkMode.Size = new System.Drawing.Size(440, 160);
+            this.pictureBoxDatabaseDarkMode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxDatabaseDarkMode.TabIndex = 0;
+            this.pictureBoxDatabaseDarkMode.TabStop = false;
+            this.pictureBoxDatabaseDarkMode.Click += new System.EventHandler(this.pictureBoxDatabase_Click);
             // 
-            // pictureBoxDatabase
+            // pictureBoxDatabaseLightmodeMode
             // 
-            this.pictureBoxDatabase.Image = global::Contact_Manager.Properties.Resources.database;
-            this.pictureBoxDatabase.Location = new System.Drawing.Point(175, 41);
-            this.pictureBoxDatabase.Name = "pictureBoxDatabase";
-            this.pictureBoxDatabase.Size = new System.Drawing.Size(129, 116);
-            this.pictureBoxDatabase.TabIndex = 0;
-            this.pictureBoxDatabase.TabStop = false;
-            this.pictureBoxDatabase.Click += new System.EventHandler(this.pictureBoxDatabase_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
-            this.panel1.Location = new System.Drawing.Point(435, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1184, 1024);
-            this.panel1.TabIndex = 2;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.pictureBoxDatabaseLightmodeMode.BackColor = System.Drawing.Color.Silver;
+            this.pictureBoxDatabaseLightmodeMode.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxDatabaseLightmodeMode.Image = global::Contact_Manager.Properties.Resources.dankebanklogolightmode;
+            this.pictureBoxDatabaseLightmodeMode.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxDatabaseLightmodeMode.Name = "pictureBoxDatabaseLightmodeMode";
+            this.pictureBoxDatabaseLightmodeMode.Size = new System.Drawing.Size(440, 160);
+            this.pictureBoxDatabaseLightmodeMode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxDatabaseLightmodeMode.TabIndex = 1;
+            this.pictureBoxDatabaseLightmodeMode.TabStop = false;
+            this.pictureBoxDatabaseLightmodeMode.Visible = false;
+            this.pictureBoxDatabaseLightmodeMode.Click += new System.EventHandler(this.pictureBoxDatabaseLightmodeMode_Click);
             // 
             // Form1
             // 
@@ -182,7 +201,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelNav.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDatabase)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDatabaseDarkMode)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDatabaseLightmodeMode)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -194,8 +214,9 @@
         private System.Windows.Forms.Button btnLightmode;
         private System.Windows.Forms.Button btnDatenbankSearch;
         private System.Windows.Forms.Button btnKundeHinzufuegen;
-        private System.Windows.Forms.PictureBox pictureBoxDatabase;
+        private System.Windows.Forms.PictureBox pictureBoxDatabaseDarkMode;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBoxDatabaseLightmodeMode;
     }
 }
 

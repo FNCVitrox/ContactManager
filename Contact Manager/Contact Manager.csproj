@@ -107,6 +107,18 @@
     </Compile>
     <Compile Include="KontaktView.cs" />
     <Compile Include="Kunde.cs" />
+    <Compile Include="LogoDarkMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogoDarkMode.Designer.cs">
+      <DependentUpon>LogoDarkMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogoLightMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogoLightMode.Designer.cs">
+      <DependentUpon>LogoLightMode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mitarbeiter.cs" />
     <Compile Include="MitarbeiterBearbeiten.cs">
       <SubType>UserControl</SubType>
@@ -134,6 +146,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoDarkMode.resx">
+      <DependentUpon>LogoDarkMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoLightMode.resx">
+      <DependentUpon>LogoLightMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MitarbeiterBearbeiten.resx">
       <DependentUpon>MitarbeiterBearbeiten.cs</DependentUpon>
@@ -191,6 +209,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\moon-half-visible-face-on-light-and-half-on-darkness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dankenbanklogodarkmode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagelightmode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dankebanklogolightmode.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

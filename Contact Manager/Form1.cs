@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -7,6 +6,7 @@ namespace Contact_Manager
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -21,9 +21,11 @@ namespace Contact_Manager
             panel1.Controls.Add(view);
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
             DataStore.Laden();  //Wichtig: beim Start Daten laden
+            LoadView(new LogoDarkMode());
         }
 
         private void btnKundeHinzufuegen_Click(object sender, EventArgs e)
@@ -31,7 +33,7 @@ namespace Contact_Manager
             Form1 mainForm = this.FindForm() as Form1;//sucht Form1
             if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
             {
-                mainForm.LoadView(new AddKunde()); // Wechsel zum Hinzufügen-View
+                mainForm.LoadView(new AddKunde()); // Wechsel zum AddKunde-View
             }
 
             if (isLightMode)
@@ -56,7 +58,7 @@ namespace Contact_Manager
             Form1 mainForm = this.FindForm() as Form1;//sucht Form1
             if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
             {
-                mainForm.LoadView(new AddMitarbeiter()); // Wechsel zum Hinzufügen-View
+                mainForm.LoadView(new AddMitarbeiter()); // Wechsel zum AddMitabeiter-View
 
             }
             if (isLightMode)
@@ -81,7 +83,7 @@ namespace Contact_Manager
             Form1 mainForm = this.FindForm() as Form1;//sucht Form1
             if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
             {
-                mainForm.LoadView(new Suchen()); // Wechsel zum Hinzufügen-View
+                mainForm.LoadView(new Suchen()); // Wechsel zum Suchen-View
 
             }
             if (isLightMode)
@@ -120,6 +122,17 @@ namespace Contact_Manager
                 btnKundeHinzufuegen.ForeColor = Color.Black;
                 btnDatenbankSearch.ForeColor = Color.Black;
                 btnLightmode.ForeColor = Color.Black;
+                pictureBoxDatabaseDarkMode.Visible = false;
+                pictureBoxDatabaseLightmodeMode.Visible = true;
+
+                Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+                if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+                {
+                    mainForm.LoadView(new LogoLightMode()); // Wechsel zum LogoLightMode-View
+
+                }
+
+
             }
             else
             {
@@ -137,12 +150,45 @@ namespace Contact_Manager
                 btnDatenbankSearch.ForeColor = Color.White;
                 btnLightmode.ForeColor = Color.White;
 
+                pictureBoxDatabaseDarkMode.Visible = true;
+                pictureBoxDatabaseLightmodeMode.Visible = false;
+
+                Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+                if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+                {
+                    mainForm.LoadView(new LogoDarkMode()); // Wechsel zum LogoDarkMode-View
+                }
+
             }
         }
 
+
+        //picbox logo black
         private void pictureBoxDatabase_Click(object sender, EventArgs e)
         {
-            panel1.Controls.Clear();
+            Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+            if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+            {
+                mainForm.LoadView(new LogoDarkMode()); // Wechsel zum DarkMode-View
+            }
+        }
+
+        private void pictureBoxDatabaseLightmodeMode_Click(object sender, EventArgs e)
+        {
+            Form1 mainForm = this.FindForm() as Form1;//sucht Form1
+            if (mainForm != null)//wenn Form1 gfunden wurde wird das if statement ausgeführt
+            {
+                mainForm.LoadView(new LogoLightMode()); // Wechsel zum LightMode-View
+            }
+        }
+
+        private void pictureBoxLogoGrossLightMode_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

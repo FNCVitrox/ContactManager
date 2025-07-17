@@ -37,3 +37,5 @@ C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact .8
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.Suchen.resources
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.KundenBearbeiten.resources
 C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.MitarbeiterBearbeiten.resources
+C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.LogoDarkMode.resources
+C:\Users\vesel\source\repos\Contact Manager\Contact Manager\obj\Debug\Contact_Manager.LogoLightMode.resources
